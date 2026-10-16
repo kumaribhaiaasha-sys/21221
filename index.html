@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishv Book Publication — Writing Projects</title>
+<meta name="description" content="Choose a writing project from Vishv Book Publication and join the official Telegram channel for current joining details.">
+<meta property="og:title" content="Vishv Book Publication — Writing Projects">
+<meta property="og:description" content="Explore 7, 10, 15 and 30-day writing projects and join our Telegram channel.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+.vbp-page{
+ --bg:#fff;--fg:#101319;--muted:#f6f5f2;--soft:#687080;
+ --blue:#1651f5;--cyan:#00aadd;--green:#4cc157;--line:#d8dbe0;
+ --gold:#edae12;--light:#fff;--dark-end:#17264f;
+ --grad:linear-gradient(120deg,var(--blue),var(--cyan),var(--blue));
+ font-family:Manrope,Arial,sans-serif;color:var(--fg);background:var(--bg);
+ line-height:1.5;overflow:hidden;min-height:100vh;isolation:isolate;
+}
+body{margin:0}
+.vbp-page *,.vbp-page *::before,.vbp-page *::after{box-sizing:border-box}
+.vbp-page a{text-decoration:none;-webkit-tap-highlight-color:transparent}
+.vbp-page img{display:block;max-width:100%}
+.vbp-page svg{width:20px;height:20px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.vbp-wrap{width:min(1160px,calc(100% - 36px));margin:auto}
+.vbp-status{border-bottom:1px solid var(--line)}
+.vbp-status .vbp-wrap,.vbp-nav .vbp-wrap{display:flex;justify-content:space-between;align-items:center;gap:18px}
+.vbp-status .vbp-wrap{min-height:52px}
+.vbp-mini-title{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.vbp-status-right{display:flex;gap:10px;align-items:center}
+.vbp-live,.vbp-trust{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border:1px solid var(--line);border-radius:999px;font-size:11px;font-weight:800;white-space:nowrap}
+.vbp-live{background:#effbef;color:#269633;border-color:#b4e7b9}
+.vbp-dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.vbp-trust{background:var(--muted)}
+.vbp-trust svg{width:13px;height:13px}
+.vbp-nav{border-bottom:1px solid var(--line);background:var(--bg)}
+.vbp-nav .vbp-wrap{min-height:76px}
+.vbp-brand{display:flex;gap:12px;align-items:center;color:var(--fg)}
+.vbp-logo{width:52px;height:52px;object-fit:contain;border-radius:50%}
+.vbp-brand-copy{display:flex;flex-direction:column;line-height:1.08}
+.vbp-brand-copy strong{font-size:17px;font-weight:800}
+.vbp-brand-copy small{margin-top:5px;color:var(--soft);font-size:10px;letter-spacing:1.4px;text-transform:uppercase}
+.vbp-nav-link{display:inline-flex;align-items:center;gap:6px;color:var(--blue);font-size:13px;font-weight:800}
+.vbp-nav-link svg{width:16px}
+.vbp-glow-link{animation:vbp-link-bounce 3s ease-in-out infinite,vbp-link-glow 3s ease-in-out infinite}
+.vbp-book-showcase{padding:42px 0;border-bottom:1px solid var(--line)}
+.vbp-books-shell{position:relative;max-width:760px;margin:auto;padding:18px;border:1px solid var(--line);border-radius:8px;background:var(--muted);box-shadow:0 18px 50px #1013191f}
+.vbp-books-label{position:absolute;top:30px;left:30px;z-index:2;display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:6px;color:var(--light);background:#101319d6;font-size:11px;font-weight:800}
+.vbp-books-label img{width:25px;height:25px;object-fit:contain;border-radius:50%}
+.vbp-books{height:360px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;overflow:hidden;border-radius:6px;-webkit-mask-image:linear-gradient(transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(transparent,#000 8%,#000 92%,transparent)}
+.vbp-track{display:flex;flex-direction:column;align-self:start;gap:10px;animation:vbp-books-up 28s linear infinite;will-change:transform}
+.vbp-track.vbp-down{animation:vbp-books-down 34s linear infinite}
+.vbp-track.vbp-slow{animation-duration:40s}
+.vbp-cover{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:4px;box-shadow:0 8px 18px #10131933}
+.vbp-preview{display:flex;justify-content:space-between;gap:12px;padding:11px 3px 0;color:var(--soft);font-size:11px;font-weight:800}
+.vbp-preview span:first-child::before{content:"";display:inline-block;width:7px;height:7px;margin-right:7px;border-radius:50%;background:var(--green)}
+.vbp-books-action{display:flex;justify-content:center;margin-top:22px}
+.vbp-facts{border-bottom:1px solid var(--line)}
+.vbp-facts .vbp-wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.vbp-fact{min-height:110px;padding:24px;border-left:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}
+.vbp-fact:last-child{border-right:1px solid var(--line)}
+.vbp-fact small{margin-bottom:8px;color:var(--soft);font-size:9px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+.vbp-fact strong{font-size:17px}
+.vbp-blue{color:var(--blue)}
+.vbp-proof{padding:24px 0;background:var(--muted);border-bottom:1px solid var(--line)}
+.vbp-proof-title{text-align:center;margin:0 0 16px;color:var(--soft);font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
+.vbp-proof-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.vbp-proof-item{min-height:62px;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;font-size:12px;font-weight:800;text-align:center}
+.vbp-proof-item svg{color:var(--blue)}
+.vbp-section{padding:82px 0}
+.vbp-section-head{text-align:center;max-width:760px;margin:0 auto 40px}
+.vbp-eyebrow{display:block;margin-bottom:9px;font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.vbp-section h1,.vbp-section-head h2,.vbp-final h2{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:58px;line-height:1.05;letter-spacing:0}
+.vbp-eyebrow,.vbp-section-head em,.vbp-plan-number{background:var(--grad);background-size:220% 220%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:var(--blue);animation:vbp-gradient-move 6s ease-in-out infinite}
+.vbp-section-head em{font-weight:500}
+.vbp-section-head>p{max-width:640px;margin:14px auto 0;color:var(--soft)}
+.vbp-plans{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.vbp-card{position:relative;min-height:300px;display:flex;flex-direction:column;padding:24px;border:1px solid var(--line);border-radius:8px;background:var(--bg);box-shadow:0 10px 30px #10131912}
+.vbp-featured{border:2px solid transparent;background:linear-gradient(var(--bg),var(--bg)) padding-box,var(--grad) border-box;background-size:100% 100%,220% 220%;box-shadow:0 14px 38px #1651f52e;animation:vbp-gradient-move 6s ease-in-out infinite}
+.vbp-tag{position:absolute;top:-13px;left:18px;padding:5px 10px;border-radius:999px;color:var(--light);background:var(--grad);background-size:220% 220%;font-size:10px;font-weight:800;text-transform:uppercase;animation:vbp-gradient-move 5s ease-in-out infinite}
+.vbp-plan-number{font-family:Georgia,serif;font-size:46px;font-weight:700;line-height:1}
+.vbp-plan-number small{font-family:Manrope,Arial,sans-serif;font-size:14px}
+.vbp-card h2{margin:13px 0 8px;font-size:18px}
+.vbp-card>p{margin:0 0 18px;color:var(--soft);font-size:13px}
+.vbp-price{margin-top:auto;padding-top:22px;border-top:1px solid var(--line)}
+.vbp-price span{display:block;color:var(--soft);font-size:10px;font-weight:800;text-transform:uppercase}
+.vbp-price strong{display:block;margin-top:4px;font-size:25px}
+.vbp-price p{margin:4px 0 0;color:var(--soft);font-size:11px}
+.vbp-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}
+.vbp-note{display:flex;gap:13px;align-items:flex-start;padding:16px 18px;border:1px solid var(--line);border-radius:8px;background:var(--muted);font-size:13px}
+.vbp-note svg{color:var(--blue)}
+.vbp-note p{margin:0}
+.vbp-note strong{display:block;margin-bottom:3px}
+.vbp-process{background:var(--muted);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.vbp-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.vbp-step{position:relative;padding:28px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
+.vbp-step>span{display:grid;place-items:center;width:42px;height:42px;margin-bottom:20px;border-radius:50%;color:var(--light);background:var(--grad);background-size:220% 220%;font-family:Georgia,serif;font-weight:700;animation:vbp-gradient-move 6s ease-in-out infinite}
+.vbp-step>svg{width:23px;height:23px;color:var(--blue)}
+.vbp-step h3{margin:14px 0 8px;font-size:20px}
+.vbp-step p{margin:0;color:var(--soft);font-size:14px}
+.vbp-step:not(:last-child)::after{content:"→";position:absolute;right:-18px;top:42%;z-index:2;color:var(--blue);font-size:22px;font-weight:800}
+.vbp-final{padding:76px 0 112px;text-align:center}
+.vbp-final-box{overflow:hidden;padding:52px;border-radius:8px;color:var(--light);background:linear-gradient(120deg,var(--fg),var(--dark-end),var(--fg));background-size:220% 220%;animation:vbp-gradient-move 9s ease-in-out infinite}
+.vbp-final-box>svg{width:34px;height:34px;margin-bottom:18px;color:var(--gold)}
+.vbp-final h2{color:var(--light)}
+.vbp-final p{max-width:610px;margin:14px auto 26px;color:#ffffffbd}
+.vbp-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:14px 24px;border-radius:8px;color:var(--light);font-size:16px;font-weight:800;text-align:center;background:var(--grad);background-size:220% 220%;box-shadow:0 12px 28px #1651f53b;transition:transform .2s,filter .2s;animation:vbp-button-bounce 3s ease-in-out infinite,vbp-button-glow 3s ease-in-out infinite,vbp-gradient-move 6s ease-in-out infinite}
+.vbp-btn svg{width:17px;height:17px}
+.vbp-btn:hover{animation-play-state:paused;transform:translateY(-4px) scale(1.02);filter:saturate(1.25) brightness(1.06)}
+.vbp-page a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.vbp-btn-block{width:min(100%,470px)}
+.vbp-footer{padding:25px 16px;border-top:1px solid var(--line);text-align:center;color:var(--soft);font-size:12px}
+.vbp-mobile-bar{display:none}
+@keyframes vbp-gradient-move{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@keyframes vbp-button-bounce{0%,72%,100%{transform:translateY(0)}78%{transform:translateY(-7px)}84%,94%{transform:translateY(0)}89%{transform:translateY(-3px)}}
+@keyframes vbp-button-glow{0%,70%,100%{box-shadow:0 12px 28px #1651f53b}82%{box-shadow:0 0 0 6px #1651f51f,0 0 30px #00aadd73}}
+@keyframes vbp-link-bounce{0%,72%,100%{transform:translateY(0)}78%{transform:translateY(-5px)}84%,94%{transform:translateY(0)}89%{transform:translateY(-2px)}}
+@keyframes vbp-link-glow{0%,70%,100%{filter:drop-shadow(0 0 0 transparent)}82%{filter:drop-shadow(0 0 9px #1651f599)}}
+@keyframes vbp-books-up{from{transform:translateY(0)}to{transform:translateY(calc(-50% - 5px))}}
+@keyframes vbp-books-down{from{transform:translateY(calc(-50% - 5px))}to{transform:translateY(0)}}
+@media(max-width:900px){
+ .vbp-plans{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .vbp-proof-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:640px){
+ .vbp-wrap{width:calc(100% - 24px)}
+ .vbp-status .vbp-wrap{min-height:46px;gap:8px}
+ .vbp-mini-title{font-size:9px;letter-spacing:1.2px}
+ .vbp-trust{display:none}
+ .vbp-nav .vbp-wrap{min-height:66px;gap:10px}
+ .vbp-logo{width:43px;height:43px}
+ .vbp-brand{gap:8px}
+ .vbp-brand-copy strong{font-size:14px}
+ .vbp-brand-copy small{display:none}
+ .vbp-nav-link{font-size:12px;flex-shrink:0}
+ .vbp-nav-link svg{display:none}
+ .vbp-book-showcase{padding:28px 0}
+ .vbp-books-shell{padding:11px}
+ .vbp-books{height:310px;gap:7px}
+ .vbp-track{gap:7px}
+ .vbp-books-label{top:20px;left:20px}
+ .vbp-facts .vbp-wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .vbp-fact{min-height:92px;padding:16px;border-bottom:1px solid var(--line)}
+ .vbp-fact:nth-child(2){border-right:1px solid var(--line)}
+ .vbp-fact strong{font-size:15px}
+ .vbp-proof-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .vbp-proof-item:last-child{grid-column:1/-1}
+ .vbp-section{padding:62px 0}
+ .vbp-section h1,.vbp-section-head h2,.vbp-final h2{font-size:40px}
+ .vbp-plans,.vbp-steps,.vbp-notes{grid-template-columns:1fr}
+ .vbp-card{min-height:270px}
+ .vbp-step:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-25px}
+ .vbp-final{padding:58px 0 70px}
+ .vbp-final-box{padding:38px 22px}
+ .vbp-footer{padding-bottom:90px}
+ .vbp-mobile-bar{position:fixed;z-index:99;display:flex;align-items:center;justify-content:space-between;gap:12px;left:0;right:0;bottom:0;padding:11px 14px;padding-bottom:calc(11px + env(safe-area-inset-bottom,0px));background:var(--grad);background-size:220% 220%;box-shadow:0 -8px 26px #10131933;animation:vbp-gradient-move 8s ease-in-out infinite}
+ .vbp-mobile-bar span{color:var(--light);font-size:12px;font-weight:800}
+ .vbp-mobile-bar a{flex-shrink:0;padding:11px 15px;border-radius:999px;background:var(--light);color:var(--blue);font-size:12px;font-weight:800;animation:vbp-button-bounce 3s ease-in-out infinite}
+ @keyframes vbp-books-up{from{transform:translateY(0)}to{transform:translateY(calc(-50% - 3.5px))}}
+ @keyframes vbp-books-down{from{transform:translateY(calc(-50% - 3.5px))}to{transform:translateY(0)}}
+}
+@media(prefers-reduced-motion:reduce){
+ .vbp-page *,.vbp-page *::before,.vbp-page *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<main id="vbp-top" class="vbp-page">
+ <div class="vbp-status">
+  <div class="vbp-wrap">
+   <span class="vbp-mini-title">Vishv Book Publication</span>
+   <div class="vbp-status-right">
+    <span class="vbp-live"><i class="vbp-dot" aria-hidden="true"></i>Projects Available</span>
+    <span class="vbp-trust"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6z"/><path d="m8 12 3 3 5-6"/></svg>Simple writing work</span>
+   </div>
+  </div>
+ </div>
+ <header class="vbp-nav">
+  <div class="vbp-wrap">
+   <a class="vbp-brand" href="#vbp-top" aria-label="Vishv Book Publication home">
+    <img class="vbp-logo" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/93d6bb6d-a690-4a84-affc-7afa735d0a2e/vishav-book-publishers-logo.webp" alt="Vishv Book Publication logo" width="52" height="52">
+    <span class="vbp-brand-copy"><strong>Vishv Book Publication</strong><small>Write books · Earn money</small></span>
+   </a>
+   <a class="vbp-nav-link vbp-glow-link" href="https://t.me/+gRz289l9E042YmJl" target="_blank" rel="noopener noreferrer">Join Telegram <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+  </div>
+ </header>
+ <section class="vbp-book-showcase" aria-label="Featured writing projects">
+  <div class="vbp-wrap">
+   <div class="vbp-books-shell">
+    <div class="vbp-books-label">
+     <img src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/93d6bb6d-a690-4a84-affc-7afa735d0a2e/vishav-book-publishers-logo.webp" alt="" width="25" height="25">Featured writing projects
+    </div>
+    <div class="vbp-books" aria-label="Animated featured book covers">
+     <div class="vbp-track">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9bbc2e14-4963-45eb-ba35-2e338de5f6c5/fahrenheit.webp" alt="Fahrenheit 451 book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/36441b56-a4ab-4cdf-b336-73759ed51999/million.webp" alt="The Million book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/35e5a3a8-e704-4245-b557-dc0de309f7ae/curse.webp" alt="The Curse book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9bbc2e14-4963-45eb-ba35-2e338de5f6c5/fahrenheit.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/36441b56-a4ab-4cdf-b336-73759ed51999/million.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/35e5a3a8-e704-4245-b557-dc0de309f7ae/curse.webp" alt="" aria-hidden="true">
+     </div>
+     <div class="vbp-track vbp-down">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/35e5a3a8-e704-4245-b557-dc0de309f7ae/curse.webp" alt="The Curse book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9c2a1512-7b22-4dc8-a053-64684af03f72/ravens.webp" alt="Ravens book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/4f1405d2-5536-4293-8dd8-078b0ba2368a/amityville.webp" alt="Amityville Horror book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/35e5a3a8-e704-4245-b557-dc0de309f7ae/curse.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9c2a1512-7b22-4dc8-a053-64684af03f72/ravens.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/4f1405d2-5536-4293-8dd8-078b0ba2368a/amityville.webp" alt="" aria-hidden="true">
+     </div>
+     <div class="vbp-track vbp-slow">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/4f1405d2-5536-4293-8dd8-078b0ba2368a/amityville.webp" alt="Amityville Horror book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9bbc2e14-4963-45eb-ba35-2e338de5f6c5/fahrenheit.webp" alt="Fahrenheit 451 book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/36441b56-a4ab-4cdf-b336-73759ed51999/million.webp" alt="The Million book cover">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/4f1405d2-5536-4293-8dd8-078b0ba2368a/amityville.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/9bbc2e14-4963-45eb-ba35-2e338de5f6c5/fahrenheit.webp" alt="" aria-hidden="true">
+      <img class="vbp-cover" src="https://id-preview--0a4a0cba-3996-496c-90f0-5aa9239b1a80.lovable.app/__l5e/assets-v1/36441b56-a4ab-4cdf-b336-73759ed51999/million.webp" alt="" aria-hidden="true">
+     </div>
+    </div>
+    <div class="vbp-preview"><span>Live book animation</span><span>5 featured covers</span></div>
+   </div>
+   <div class="vbp-books-action">
+    <a class="vbp-btn" href="https://t.me/+gRz289l9E042YmJl" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg>Join Telegram channel<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+   </div>
+  </div>
+ </section>
+ <section class="vbp-facts" aria-label="Project highlights">
+  <div class="vbp-wrap">
+   <div class="vbp-fact"><small>Shortest plan</small><strong>7 days</strong></div>
+   <div class="vbp-fact"><small>Daily target</small><strong>7–10 pages</strong></div>
+   <div class="vbp-fact"><small>Project support</small><strong>Material provided</strong></div>
+   <div class="vbp-fact"><small>Salary range</small><strong class="vbp-blue">₹25,000–₹40,000</strong></div>
+  </div>
+ </section>
+ <section class="vbp-proof">
+  <div class="vbp-wrap">
+   <p class="vbp-proof-title">Everything you need for a clear writing workflow</p>
+   <div class="vbp-proof-grid">
+    <div class="vbp-proof-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m16 3 5 5-12 12-6 1 1-6L16 3ZM14 5l5 5M3 22h18"/></svg>Writing Projects</div>
+    <div class="vbp-proof-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6C8 3 4 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-2-1-6-1-10 2ZM12 6v15"/></svg>Material Included</div>
+    <div class="vbp-proof-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg>Telegram Updates</div>
+    <div class="vbp-proof-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 8h12M8 3c8 0 8 8 0 8H6l10 10"/></svg>Quick Payments</div>
+    <div class="vbp-proof-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-9 5 9 5 9-5-9-5ZM3 8v10l9 5 9-5V8M12 13v10m3-18-9 5"/></svg>Parcel Pickup</div>
+   </div>
+  </div>
+ </section>
+ <section id="vbp-projects" class="vbp-section">
+  <div class="vbp-wrap">
+   <div class="vbp-section-head"><span class="vbp-eyebrow">Choose your project</span><h1>Our best <em>work plans</em></h1><p>Pick a schedule that matches your writing capacity and follow the page target for your selected project.</p></div>
+   <div class="vbp-plans">
+    <article class="vbp-card"><div class="vbp-plan-number">7 <small>days</small></div><h2>Starter Project</h2><p>49 pages total<br>7 pages per day</p><div class="vbp-price"><span>Salary</span><strong>₹25,000</strong><p>Registration fee: ₹499</p></div></article>
+    <article class="vbp-card vbp-featured"><span class="vbp-tag">Popular</span><div class="vbp-plan-number">10 <small>days</small></div><h2>Popular Project</h2><p>100 pages total<br>10 pages per day</p><div class="vbp-price"><span>Salary</span><strong>₹30,000</strong><p>Registration fee: ₹799</p></div></article>
+    <article class="vbp-card"><span class="vbp-tag">Best offer</span><div class="vbp-plan-number">15 <small>days</small></div><h2>Extended Project</h2><p>150 pages total<br>10 pages per day</p><div class="vbp-price"><span>Salary</span><strong>₹35,000</strong><p>Registration fee: ₹999</p></div></article>
+    <article class="vbp-card"><div class="vbp-plan-number">30 <small>days</small></div><h2>Monthly Project</h2><p>300 pages total<br>10 pages per day</p><div class="vbp-price"><span>Salary</span><strong>₹40,000</strong><p>Ask in Telegram for details</p></div></article>
+   </div>
+   <div class="vbp-notes">
+    <div class="vbp-note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><p><strong>Salary process</strong>Half salary in advance, with the remaining amount after completion.</p></div>
+    <div class="vbp-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-9 5 9 5 9-5-9-5ZM3 8v10l9 5 9-5V8M12 13v10"/></svg><p><strong>Project support</strong>All material is provided. Delivery and pickup service is available.</p></div>
+   </div>
+  </div>
+ </section>
+ <section id="vbp-process" class="vbp-section vbp-process">
+  <div class="vbp-wrap">
+   <div class="vbp-section-head"><span class="vbp-eyebrow">A simple three-step process</span><h2>How it <em>works</em></h2></div>
+   <div class="vbp-steps">
+    <article class="vbp-step"><span>1</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg><h3>Join Telegram</h3><p>Open the official channel and review the latest joining information.</p></article>
+    <article class="vbp-step"><span>2</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6C8 3 4 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-2-1-6-1-10 2ZM12 6v15"/></svg><h3>Select a Project</h3><p>Choose the duration and page target that suits your schedule.</p></article>
+    <article class="vbp-step"><span>3</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m16 3 5 5-12 12-6 1 1-6L16 3ZM14 5l5 5M3 22h18"/></svg><h3>Write &amp; Earn</h3><p>Complete your assigned writing work and follow the shared payment process.</p></article>
+   </div>
+  </div>
+ </section>
+ <section class="vbp-final">
+  <div class="vbp-wrap">
+   <div class="vbp-final-box">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg>
+    <h2>Ready to start your writing project?</h2>
+    <p>Join the Vishv Book Publication Telegram channel for current project details and instructions.</p>
+    <a class="vbp-btn vbp-btn-block" href="https://t.me/+gRz289l9E042YmJl" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7ZM22 2 11 13"/></svg>Join Telegram now<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+   </div>
+  </div>
+ </section>
+ <footer class="vbp-footer">© 2026 Vishv Book Publication. All rights reserved.</footer>
+ <div class="vbp-mobile-bar"><span>Writing projects available</span><a href="https://t.me/+gRz289l9E042YmJl" target="_blank" rel="noopener noreferrer">Join Telegram</a></div>
+</main>
+</body>
+</html>
